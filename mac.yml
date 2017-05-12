@@ -1,0 +1,26 @@
+---
+- hosts: localhost
+  connection: local
+  become: no
+  roles:
+    - homebrew
+  vars:
+    homebrew_packages:
+      - vim
+      - jq
+      - gnu-sed
+      - go
+      - nkf
+      - the_platinum_searcher
+      - tree
+    homebrew_cask_packages:
+      - docker
+      - lastpass
+      - google-chrome
+      - google-cloud-sdk
+      - google-drive
+      - google-japanese-ime
+      - iterm2
+      - slack
+      - atom
+      - skitch
