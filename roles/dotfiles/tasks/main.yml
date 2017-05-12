@@ -1,4 +1,8 @@
----
 - name: clone dotfiles repository
   git: repo=git@github.com:pinkumohikan/dotfiles.git
        dest=~/products/dotfiles version=master accept_hostkey=yes
+- name: mark dotfiles installed
+  shell: make install && date "+%Y/%m/%d %H:%M:%S" > .applied
+  args:
+    chdir: ~/products/dotfiles/
+    creates: .applied
