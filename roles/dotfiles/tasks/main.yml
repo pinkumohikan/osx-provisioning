@@ -1,3 +1,4 @@
+---
 - name: clone dotfiles repository
   git: repo=git@github.com:pinkumohikan/dotfiles.git
        dest=~/products/dotfiles version=master accept_hostkey=yes
