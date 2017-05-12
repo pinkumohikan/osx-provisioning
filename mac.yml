@@ -3,7 +3,8 @@
   connection: local
   become: no
   roles:
-    - homebrew
+    #- homebrew
+    - dotfiles
   vars:
     homebrew_packages:
       - vim
