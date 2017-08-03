@@ -14,6 +14,7 @@
       - nkf
       - the_platinum_searcher
       - tree
+      - find-utils
     homebrew_cask_packages:
       - docker
       - lastpass
