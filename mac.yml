@@ -3,9 +3,11 @@
   connection: local
   become: no
   roles:
+    - nvm
     - homebrew
     - dotfiles
   vars:
+    nodejs_version: 9.4.0
     homebrew_packages:
       - vim
       - jq
@@ -27,3 +29,4 @@
       - slack
       - atom
       - skitch
+

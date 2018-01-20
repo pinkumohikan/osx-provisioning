@@ -1,0 +1,8 @@
+---
+- name: clone nvm repository
+  git: repo=git://github.com/creationix/nvm.git
+       dest=~/.nvm version=master accept_hostkey=yes
+- name: install node.js
+  shell: ". ~/.nvm/nvm.sh && nvm install {{nodejs_version}}"
+- name: set global version of node.js
+  shell: ". ~/.nvm/nvm.sh && nvm alias default {{nodejs_version}}"
