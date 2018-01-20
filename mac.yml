@@ -25,12 +25,7 @@
       - sqlite
     homebrew_cask_packages:
       - docker
-      - lastpass
-      - google-chrome
-      - google-cloud-sdk
       - google-drive
-      - google-japanese-ime
-      - iterm2
       - slack
       - atom
       - skitch
