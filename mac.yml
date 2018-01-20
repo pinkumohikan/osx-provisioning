@@ -19,6 +19,10 @@
       - tree
       - find-utils
       - chromedriver
+      - awscli
+      - lastpass-cli
+      - php71
+      - sqlite
     homebrew_cask_packages:
       - docker
       - lastpass
