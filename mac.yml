@@ -25,7 +25,6 @@
       - sqlite
     homebrew_cask_packages:
       - docker
-      - google-drive
       - slack
       - atom
       - skitch
