@@ -1,7 +1,14 @@
 # osx-provisining
 
-## bootstrap
+# Manual installs
+## Google Chrome
+https://www.google.co.jp/chrome/browser/desktop/index.html
 
-```
-curl -sSf https://iterm2.com/downloads/stable/latest -o /Applications/iTerm.app
-```
+## iTerm2
+https://iterm2.com/
+
+## Google IME
+https://www.google.co.jp/ime/
+
+## Karabiner Elements
+https://github.com/tekezo/Karabiner-Elements#how-to-build
