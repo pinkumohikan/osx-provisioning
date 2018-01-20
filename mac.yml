@@ -14,6 +14,7 @@
       - jq
       - gnu-sed
       - go
+      - php72
       - nkf
       - the_platinum_searcher
       - tree
@@ -21,7 +22,6 @@
       - chromedriver
       - awscli
       - lastpass-cli
-      - php71
       - sqlite
     homebrew_cask_packages:
       - docker
