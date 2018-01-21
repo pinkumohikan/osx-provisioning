@@ -1,4 +1,19 @@
 ---
+- name: create Homebrew dir
+  file:
+    state=directory
+    dest=/Library/Homebrew
+  become: yes
+- name: create symlink to brew.sh
+  file:
+    state=link
+    src=/usr/local/Homebrew/Library/Homebrew/brew.sh
+    dest=/Library/Homebrew/brew.sh
+  become: yes
+- name: install taps
+  command: "brew tap {{ item }}"
+  with_items:
+    - homebrew/php
 - name: install packages
   homebrew: name={{ item }} state=present
   with_items: "{{ homebrew_packages }}"
