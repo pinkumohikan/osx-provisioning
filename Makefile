@@ -8,4 +8,4 @@ setup:
 	brew install ansible
 
 apply:
-	ansible-playbook -i "localhost," mac.yml
+	ansible-playbook -i "localhost," -K mac.yml
