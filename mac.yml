@@ -25,6 +25,7 @@
       - awscli
       - lastpass-cli
       - sqlite
+      - boost # required by Karabiner-Elements
     homebrew_cask_packages:
       - docker
       - slack
