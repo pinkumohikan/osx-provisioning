@@ -5,6 +5,7 @@
   roles:
     - nvm
     - homebrew
+    - homebrew-cask
     - dotfiles
   vars:
     nvm_version: 0.33.8
