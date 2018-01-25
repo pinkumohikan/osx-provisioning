@@ -6,6 +6,7 @@
     - nvm
     - homebrew
     - homebrew-cask
+    - mas
     - dotfiles
   vars:
     nvm_version: 0.33.8
@@ -33,3 +34,5 @@
       - skitch
       - karabiner-elements
       - visual-studio-code
+    mac_apps:
+      - 539883307

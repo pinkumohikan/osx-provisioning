@@ -1,0 +1,4 @@
+---
+- name: install mac apps
+  shell: "mas install {{ item }}"
+  with_items: "{{ mac_apps }}"
