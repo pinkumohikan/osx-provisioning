@@ -34,5 +34,7 @@
       - skitch
       - karabiner-elements
       - visual-studio-code
+      - phpstorm
+      - goland
     mac_apps:
       - 539883307
