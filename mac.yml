@@ -25,6 +25,7 @@
       - awscli
       - lastpass-cli
       - sqlite
+      - mas
     homebrew_cask_packages:
       - docker
       - slack
