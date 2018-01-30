@@ -27,6 +27,7 @@
       - lastpass-cli
       - sqlite
       - mas
+      - typescript
     homebrew_cask_packages:
       - docker
       - slack
