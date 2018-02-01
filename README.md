@@ -1,20 +1,28 @@
-# osx-provisining
+# macOS provisining
 
-# Manual installs
-## Google Chrome
-https://www.google.co.jp/chrome/browser/desktop/index.html
+いい感じにmacOSのセットアップを省力化したいンゴ~~~~
 
-## iTerm2
-https://iterm2.com/
+## Usage
+```
+make setup
+make provision
+```
 
-## Google IME
-https://www.google.co.jp/ime/
+## Manual installs
+### Google Chrome
+* https://www.google.co.jp/chrome/browser/desktop/index.html
 
-## Karabiner Elements
-https://github.com/tekezo/Karabiner-Elements#how-to-build
+### iTerm2
+* https://iterm2.com/
 
-## Google Driver
-https://www.google.com/intl/ja_ALL/drive/download/
+### Google IME
+* https://www.google.co.jp/ime/
 
-## ESET Cyber Security Pro
-https://eset-info.canon-its.jp/support/setup/howto_setup2_ecsp_v65.html
+### Karabiner Elements
+* https://github.com/tekezo/Karabiner-Elements#how-to-build
+
+### Google Drive
+* https://www.google.com/intl/ja_ALL/drive/download/
+
+### ESET Cyber Security Pro
+* https://eset-info.canon-its.jp/support/setup/howto_setup2_ecsp_v65.html

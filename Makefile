@@ -1,5 +1,5 @@
 
-.PHONY: setup apply brew_cask_option/set
+.PHONY: setup provision
 
 setup:
 	sudo xcodebuild -license
@@ -7,5 +7,5 @@ setup:
 	brew update
 	brew install ansible
 
-apply:
+provision:
 	ansible-playbook -i "localhost," -K mac.yml
