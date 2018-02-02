@@ -29,6 +29,7 @@
       - sqlite
       - mas
       - typescript
+      - mysql
     homebrew_cask_packages:
       - docker
       - slack
