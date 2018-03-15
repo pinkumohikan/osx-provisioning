@@ -30,6 +30,7 @@
       - mas
       - typescript
       - mysql
+      - sbt
     homebrew_cask_packages:
       - docker
       - slack
@@ -38,6 +39,7 @@
       - visual-studio-code
       - phpstorm
       - goland
+      - java
     mac_apps:
       - 539883307
       - 715768417
