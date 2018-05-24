@@ -17,7 +17,7 @@
       - jq
       - gnu-sed
       - go
-      - php72
+      - php71
       - nkf
       - the_platinum_searcher
       - tree
