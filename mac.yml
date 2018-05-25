@@ -4,8 +4,8 @@
   become: no
   roles:
     - nvm
-    - homebrew
     - homebrew-cask
+    - homebrew
     - mas
     - dotfiles
     - composer
