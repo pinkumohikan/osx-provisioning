@@ -34,7 +34,7 @@
       - atom
       - skitch
       - visual-studio-code
-      - phpstorm
+      - intellij-idea
       - goland
       - java
     mac_apps:
