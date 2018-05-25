@@ -21,7 +21,6 @@
       - nkf
       - the_platinum_searcher
       - tree
-      - chromedriver
       - awscli
       - lastpass-cli
       - sqlite
