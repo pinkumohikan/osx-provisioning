@@ -28,6 +28,7 @@
       - typescript
       - mysql
       - sbt
+      - ta-lib
     homebrew_cask_packages:
       - docker
       - slack
