@@ -29,6 +29,7 @@
       - mysql
       - sbt
       - ta-lib
+      - awslogs
     homebrew_cask_packages:
       - docker
       - slack
