@@ -30,6 +30,8 @@
       - sbt
       - ta-lib
       - awslogs
+      - siege
+      - telnet
     homebrew_cask_packages:
       - docker
       - slack
