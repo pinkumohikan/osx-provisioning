@@ -19,7 +19,7 @@ make provision
 * https://www.google.co.jp/ime/
 
 ### Karabiner Elements
-* https://github.com/tekezo/Karabiner-Elements#how-to-build
+* https://pqrs.org/osx/karabiner/
 
 ### Google Drive
 * https://www.google.com/intl/ja_ALL/drive/download/
