@@ -10,8 +10,8 @@
     - dotfiles
     - composer
   vars:
-    nvm_version: 0.33.8
-    nodejs_version: 9.4.0
+    nvm_version: 0.34.0
+    nodejs_version: 10
     homebrew_packages:
       - vim
       - jq
