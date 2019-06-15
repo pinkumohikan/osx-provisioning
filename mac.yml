@@ -32,6 +32,7 @@
       - awslogs
       - siege
       - telnet
+      - make
     homebrew_cask_packages:
       - docker
       - slack
