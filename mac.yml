@@ -33,6 +33,7 @@
       - siege
       - telnet
       - make
+      - redis
     homebrew_cask_packages:
       - docker
       - slack
