@@ -37,6 +37,7 @@
       - libressl
       - curl
       - openjdk
+      - fzf
     homebrew_cask_packages:
       - docker
       - slack
