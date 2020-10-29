@@ -36,6 +36,7 @@
       - redis
       - libressl
       - curl
+      - openjdk
     homebrew_cask_packages:
       - docker
       - slack
@@ -43,7 +44,6 @@
       - skitch
       - visual-studio-code
       - intellij-idea
-      - openjdk
       - evernote
       - kindle
       - discord
