@@ -20,6 +20,3 @@ make provision
 
 ### Karabiner Elements
 * https://pqrs.org/osx/karabiner/
-
-### Google Drive
-* https://www.google.com/intl/ja_ALL/drive/download/
