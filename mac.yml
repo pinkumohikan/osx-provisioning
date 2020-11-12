@@ -9,6 +9,7 @@
     - mas
     - dotfiles
     - composer
+    - fzf
   vars:
     nvm_version: 0.34.0
     nodejs_version: 12
@@ -37,7 +38,6 @@
       - libressl
       - curl
       - openjdk
-      - fzf
     homebrew_cask_packages:
       - docker
       - slack

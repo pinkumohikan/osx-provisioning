@@ -1,0 +1,7 @@
+---
+- name: install fzf package
+  homebrew: name=fzf state=present
+- name: enabling fzf
+  shell: "/usr/local/opt/fzf/install --all --no-zsh --no-fish"
+  args:
+    creates: ~/.fzf.bash
