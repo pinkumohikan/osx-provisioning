@@ -38,6 +38,7 @@
       - libressl
       - curl
       - openjdk
+      - percona-toolkit
     homebrew_cask_packages:
       - docker
       - slack
