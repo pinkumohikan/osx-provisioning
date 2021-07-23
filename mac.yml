@@ -39,6 +39,7 @@
       - curl
       - openjdk
       - percona-toolkit
+      - graphviz
     homebrew_cask_packages:
       - docker
       - slack
