@@ -18,7 +18,7 @@
       - jq
       - gnu-sed
       - go
-      - php@7.4
+      - php@8.1
       - nkf
       - the_platinum_searcher
       - tree
