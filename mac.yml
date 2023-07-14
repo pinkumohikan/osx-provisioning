@@ -43,6 +43,7 @@
       - kindle
       - discord
       - licecap
+      - session-manager-plugin
     mac_apps:
       - 539883307
       - 409183694
