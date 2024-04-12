@@ -11,7 +11,7 @@
     - composer
     - fzf
   vars:
-    nodejs_version: 18
+    nodejs_version: 20
     homebrew_packages:
       - vim
       - jq
