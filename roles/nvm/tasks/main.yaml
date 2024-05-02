@@ -1,7 +1,19 @@
 ---
+# nvm
+- name: check nvm installation
+  stat:
+    path: ~/.nvm/nvm.sh
+  register: nvm_installed
 - name: fetch nvm installer
   shell: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-- name: install node.js
+  when: not nvm_installed.stat.exists
+
+# Node.js
+- name: install Node.js
   shell: ". ~/.nvm/nvm.sh && nvm install {{nodejs_version}}"
 - name: set global version of node.js
   shell: ". ~/.nvm/nvm.sh && nvm alias default {{nodejs_version}}"
+
+# Yarn
+- name: install package manager (yarn)
+  command: npm install -g yarn
