@@ -17,3 +17,7 @@
 # Yarn
 - name: install package manager (yarn)
   command: npm install -g yarn
+
+# pnpm
+- name: install package manager (pnpm)
+  command: npm install -g pnpm
