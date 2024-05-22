@@ -35,6 +35,7 @@
       - graphviz
       - coreutils
       - aws-vault
+      - act
     homebrew_cask_packages:
       - docker
       - slack
