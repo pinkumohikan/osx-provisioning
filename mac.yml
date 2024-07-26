@@ -36,6 +36,7 @@
       - coreutils
       - aws-vault
       - act
+      - vegeta
     homebrew_cask_packages:
       - docker
       - slack
