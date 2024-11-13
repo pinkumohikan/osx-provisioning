@@ -1,4 +1,0 @@
----
-- shell: php -r "readfile('https://getcomposer.org/installer');" | php
-- file: state=directory path=~/bin
-- command: mv composer.phar ~/bin/composer
