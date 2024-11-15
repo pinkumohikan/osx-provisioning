@@ -21,7 +21,6 @@
       - awscli
       - sqlite
       - mas
-      - typescript
       - mysql
       - awslogs
       - siege
