@@ -36,10 +36,10 @@
       - docker
       - slack
       - intellij-idea
-      - kindle
       - discord
       - licecap
       - session-manager-plugin
       - sequel-ace
     mac_apps:
-      - 409183694
+      - 409183694 # Keynote
+      - 302584613 # Kindle
