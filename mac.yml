@@ -32,7 +32,6 @@
       - graphviz
       - coreutils
       - aws-vault
-      - font-udev-gothic-hs
     homebrew_cask_packages:
       - docker
       - slack
