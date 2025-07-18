@@ -33,6 +33,7 @@
       - coreutils
       - aws-vault
       - gh
+      - ollama
     homebrew_cask_packages:
       - docker
       - slack
