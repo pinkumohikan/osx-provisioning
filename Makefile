@@ -9,9 +9,14 @@ setup:
 provision: keyrepeat
 	chsh -s /bin/bash
 	ansible-playbook -i "localhost," -K mac.yml
+	$(MAKE) npm-packages
 
 keyrepeat:
 	defaults write -g KeyRepeat -int 2
 	defaults write -g InitialKeyRepeat -int 10
 	defaults write -g ApplePressAndHoldEnabled -bool false
+
+# TODO: Ansible管理へ移行
+npm-packages:
+	npm install -g textlint textlint-rule-preset-japanese textlint-rule-preset-ja-technical-writing
 
