@@ -33,7 +33,6 @@
       - coreutils
       - aws-vault
       - gh
-      - ollama
       - cursor-cli
     homebrew_cask_packages:
       - docker
