@@ -37,7 +37,6 @@
     homebrew_cask_packages:
       - docker
       - slack
-      - intellij-idea
       - discord
       - licecap
       - session-manager-plugin
@@ -45,3 +44,4 @@
     mac_apps:
       - 409183694 # Keynote
       - 302584613 # Kindle
+      - 6741426692 # Locally AI
