@@ -41,6 +41,7 @@
       - licecap
       - session-manager-plugin
       - sequel-ace
+      - 1password-cli
     mac_apps:
       - 409183694 # Keynote
       - 302584613 # Kindle
